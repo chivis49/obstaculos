@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego: La bola esquiva al triángulo</title>
+  <style>
+    canvas {
+      background: #111;
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #fff;
+    }
+    #restartBtn {
+      display: none;
+      margin: 0 auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  <button id="restartBtn">Reiniciar juego</button>
+  <script src="game.js"></script>
+</body>
+</html>
